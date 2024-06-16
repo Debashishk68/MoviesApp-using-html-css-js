@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DeBCode</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="swiper-budle.min.css" />
+  <link rel="icon" type="image/x-icon" href="D.png">
+</head>
+
+<body>
+
+  <div class="navbar">
+    <input type="image" src="D-removebg-preview.png" class="logo">
+    <a class="home" href="index.html">Home</a>
+    <a class="about" href="about.html">About</a>
+    <div class="flex">
+      <input type="image" src="search.svg" class="search">
+    </div>
+  </div>
+  <div class="container">
+    <h1 class="moviestxt">Movies</h1>
+    <div class="swiper mySwiper">
+      <div class="slideanimaton swiper-wrapper">
+        <!-- <h1 class="moviestext">Movies</h1> -->
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/aquaman.webp">
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/captain miller.webp">
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/gas.webp">
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/narato.webp">
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/oprnhimer.webp">
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/some other.webp">
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/teri bato mein.webp">
+        <input class="slideshowimg swiper-slide" type="image" src="/slideshow/puppies.webp">
+
+
+      </div>
+      <div class="slide swiper-button-next"></div>
+      <div class="slide swiper-button-prev"></div>
+      <div class="slide swiper-pagination"></div>
+
+    </div>
+    <main>
+      <p class="topmoviestext">Top Movies</p>
+      <div class="slider">
+        <div class="topmovies swiper-wrapper"> </div>
+        <div class="top swiper-button-next"></div>
+        <div class="top swiper-button-prev"></div>
+        <!-- <div class="swiper-pagination"></div> -->
+
+      </div>
+    </main>
+    <div class="Series">
+      <p class="topseriestext">Top Series</p>
+      <div class="seriesslider">
+        <div class="topseries swiper-wrapper"></div>
+        <div class="seriestop swiper-button-next"></div>
+        <div class="seriestop swiper-button-prev"></div>
+      </div>
+    </div>
+    <div class="searchedMovies">
+
+    </div>
+    <div class="Hindi">
+
+      <p class="tophinditext">Top Bollywood Movies</p>
+      <div class="hindislider">
+        <div class="tophindiseries swiper-wrapper"></div>
+        <div class="hinditop swiper-button-next"></div>
+        <div class="hinditop swiper-button-prev"></div>
+      </div>
+
+    </div>
+    <div class="searchedMovies">
+
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="module" src="app.js"></script>
+  <script src="script.js"></script>
+  <script src="series.js"></script>
+  <script src="hindi.js"></script>
